@@ -70,6 +70,7 @@ The mark is an orbiting, node-centred **signal path**: a solid lime loop wraps a
 - Signal Lime is a computation and status accent, never a full chapter background. It may dominate compact command surfaces, active markers, key numerals, and terminal highlights only.
 - Every major chapter carries a persistent signal-path device: a rail, coordinate label, route trace, grid field, status token, or plotted system diagram.
 - Project cards are inspectable instruments. Their hierarchy comes from telemetry, state markers, capability tokens, coordinate labels, and plotted geometry rather than generic decorative cards.
+- The adaptive light mode keeps the same systems-lab identity with stone surfaces, dark green structural ink, a deeper signal green, and a high-contrast dark terminal; it must never look like an unstyled white theme.
 
 ## Content foundation
 

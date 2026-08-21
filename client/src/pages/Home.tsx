@@ -17,11 +17,14 @@ import {
   Layers3,
   Mail,
   MousePointer2,
+  Moon,
   Orbit,
   ShieldCheck,
+  Sun,
   Terminal,
 } from "lucide-react";
 import { useEffect, useRef, useState, type CSSProperties } from "react";
+import { useTheme } from "../contexts/ThemeContext";
 
 const projects = [
   {
@@ -158,6 +161,7 @@ export default function Home() {
   const [scrolled, setScrolled] = useState(false);
   const [activeProject, setActiveProject] = useState(projects[0].name);
   const shouldReduceMotion = useReducedMotion();
+  const { theme, toggleTheme } = useTheme();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 28);
@@ -188,10 +192,23 @@ export default function Home() {
             </a>
           ))}
         </nav>
-        <a href="mailto:skmandal3240@gmail.com" className="header-status">
-          <span className="status-dot" />
-          OPEN TO BUILD
-        </a>
+        <div className="header-controls">
+          <button
+            type="button"
+            className="theme-toggle"
+            onClick={toggleTheme}
+            aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+            title={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+          >
+            <Sun size={14} className="theme-sun" aria-hidden="true" />
+            <Moon size={14} className="theme-moon" aria-hidden="true" />
+            <span>{theme === "dark" ? "LIGHT" : "DARK"}</span>
+          </button>
+          <a href="mailto:skmandal3240@gmail.com" className="header-status">
+            <span className="status-dot" />
+            OPEN TO BUILD
+          </a>
+        </div>
       </header>
 
       <section className="hero-section" id="top">
