@@ -1,75 +1,76 @@
-# Saurabh Mandal Portfolio — Design Exploration
+# Local Signal — Design Direction
 
-## Three Possible Directions
+## Three possible approaches
 
-### 1. Orbital Systems Lab
-**Very Brief Intro:** A deep-space systems console where work appears as precision-built modules orbiting a calm intelligence core. It feels technical, controlled, and distinctly personal rather than like a generic developer site.
+| Theme Name | Very Brief Intro | Probability |
+| --- | --- | --- |
+| Local Signal | A systems-lab portfolio where local-first intelligence becomes a tangible signal moving through a black, gridded field. It is quiet, technical, and kinetic rather than conventionally “futuristic.” | 0.07 |
+| Paper Protocol | A warm, editorial technical journal that treats each project like a researched field note with ink, graphite, and carefully staged diagrams. | 0.03 |
+| Alloy Garden | A light-filled, tactile industrial world where brushed metal, translucent acrylic, and organic growth shapes frame product work. | 0.09 |
 
-**Probability:** 0.03
-
-### 2. Cyanotype Research Journal
-**Very Brief Intro:** An editorial, light-background portfolio inspired by annotated engineering notebooks and blue scientific prints. The experience feels reflective, tactile, and story-forward.
-
-**Probability:** 0.07
-
-### 3. Kinetic Signal Archive
-**Very Brief Intro:** A stark typographic archive where kinetic type, dashed grids, and data-record motifs organize the body of work. It is direct, sharp, and built around the rhythm of scrolling.
-
-**Probability:** 0.02
-
----
-
-## Chosen Direction — Orbital Systems Lab
+## Chosen approach: Local Signal
 
 ### Design Movement
-**Neo-futurist systems design** with the calibrated precision of spacecraft interfaces, tempered by clean editorial typography. This is an atmospheric environment for technical work, not a cyberpunk dashboard.
+
+**Local Signal** draws from experimental systems graphics, Swiss technical editorial design, measurement instruments, and contemporary 3D product visualization. It turns Saurabh’s local-first AI work into a visual world of transmitted states, governed capability, and controllable energy.
 
 ### Core Principles
-1. **Engineered depth:** Every surface should have a physical relationship to the stage through parallax, layered transparencies, and controlled 3D perspective.
-2. **Quiet confidence:** Black, carbon, and warm-white form the base; color appears only as an intentional signal, never as decoration.
-3. **Legible complexity:** Dense systems work is represented through calm hierarchies, compact metadata, and progressive disclosure.
-4. **Motion with purpose:** Animation communicates position, sequence, or response; it should never become visual noise.
+
+1. **Systems made visible.** Every large visual element should read like a meaningful object in a technical system: an orbit, a plotted field, a signal state, or a capability token.
+2. **Intentional asymmetry.** Content lives in chapters and rail-like structures rather than in a generic centered stack of cards.
+3. **Restrained spectacle.** 3D depth, reflections, and motion support readability and project evidence; they never become noise.
+4. **Evidence over hype.** Concise project framing, named technologies, real repository links, certificates, and CV-backed experience build credibility.
 
 ### Color Philosophy
-The portfolio is built on **deep graphite** to establish focus and give dimensional objects a credible physical setting. **Lunar white** provides high-legibility reading surfaces and typography. **Signal cyan** is the ownable highlight, selected for its connection to technology, clarity, and quiet energy; a restrained **solar coral** marks rare high-priority actions and project indices.
+
+The base is **graphite-black**, a calm surface that lets Saurabh’s systems work feel focused instead of loud. **Signal Lime (`#B8FF3E`)** is the ownable accent: it marks active computation, focus, and direct interaction. A sparse **instrument amber (`#E9BE5A`)** marks human context, status, and credential evidence. Soft stone-white provides legibility. No violet gradients or rainbow glows are permitted.
 
 ### Layout Paradigm
-The site is conceived as an **orbiting narrative** rather than a centered landing page. A persistent, low-profile left rail anchors navigation on desktop. Content moves through wide asymmetrical stages: a hero core on the left, a 3D field on the right, a horizontal workrail for featured projects, and stacked evidence cards that gently interrupt the regular vertical rhythm.
+
+The page is a **scrolling signal path**. An anchored left rail carries section index and current state on desktop, while each chapter shifts content alignment: a hero split around a 3D core; an evidence ribbon; staggered case files; a skill field; and a final contact terminal. Mobile collapses the rail into a compact top status line while retaining the sequence.
 
 ### Signature Elements
-1. **Orbit rings and focus dots:** Thin elliptical tracks and moving marks repeat through the hero, project cards, and footer.
-2. **The prism core:** A translucent, rotating 3D orb/prism form that responds subtly to pointer position and acts as the visual stand-in for systems thinking.
-3. **Telemetry labels:** Compact uppercase labels with timestamp-like project codes frame sections and technical metadata.
+
+1. A pointer-reactive **3D Signal Core** with orbital rings and live-looking nodal points.
+2. The **field grid**: thin measurement lines, coordinates, and a subtle grain overlay across large dark surfaces.
+3. **Project instruments**: tilted/hovering project panels with lime status markers, dotted routes, and telemetry metadata.
 
 ### Interaction Philosophy
-Interaction should feel like guiding a precise object through space. Hover states use shallow 3D tilts, focus rings use cyan illumination, and project cards open with depth-preserving transitions. Navigation scrolls deliberately through the work rather than jumping abruptly. All richer motion is disabled or simplified for reduced-motion preferences.
+
+Interactions should feel like operating a precise instrument. Pointer movement shifts depth gently; project tiles tilt with calibrated feedback; buttons compress slightly on press; and navigation scrolls directly to meaningful chapters. Hover effects must expose information or spatial structure—not merely decorate.
 
 ### Animation
-The hero uses a slow, layered drift: orbit rings rotate at different speeds, the prism core follows pointer movement within strict limits, and entry text rises with a short 40–70ms stagger. Scroll progress reveals cards with low-amplitude depth and opacity transitions. Buttons and chips react in 120–180ms; project cards use spring-based tilt and a 220–300ms hover settle. No perpetual high-speed animation, strobing, or aggressive glowing.
+
+The hero core slowly rotates and responds to the pointer using transforms. Chapters reveal with 40–70ms staggered opacity and Y-offset transitions. Grid lines and orbit marks use very slow, low-contrast motion. Project cards use spring-like transform feedback on hover. All nonessential motion must disable under `prefers-reduced-motion`; keyboard-driven controls remain immediate.
 
 ### Typography System
-**Space Grotesk** is the display and interface face, using bold and semi-bold large-scale letterforms for engineering clarity. **IBM Plex Mono** supports telemetry labels, project codes, and small metadata. Headings use tightly tracked upper/lower case; body copy stays open, conversational, and comfortably sized for long reading.
+
+Use **Space Grotesk** for display and project titles: firm, modern, technical, and highly legible. Use **IBM Plex Mono** for metadata, rails, coordinates, and status labels to reinforce the engineering system. Headlines may use tight tracking and dramatic scale; body copy must remain restrained, short, and easily scanned.
 
 ### Brand Essence
-**Saurabh Mandal builds privacy-aware AI systems and high-performance tools that make complex technology human-operable.**
 
-**Personality:** precise, exploratory, grounded.
+**Local-first AI and systems engineering, made legible through precise product craft.** Personality: **deliberate, exploratory, grounded.**
 
 ### Brand Voice
-Headlines are concise and declarative. CTAs invite a specific next action rather than using generic product language. Microcopy uses technical confidence with human-scale clarity.
 
-> “Local intelligence. Explicit control.”
+Headlines are declarative and compact; CTAs sound like system commands rather than marketing slogans. Microcopy should be factual, never inflated.
 
-> “Explore the systems behind the interface.”
+Example lines: “Build intelligence that stays close to its owner.” and “Inspect the systems behind the signal.”
 
 ### Wordmark & Logo
-The mark is an **interlocked orbital monogram**: a geometric “S” constructed from two offset rings orbiting a compact square core. It is a text-free graphic mark suited to the header and favicon; the wordmark uses custom-spaced Space Grotesk rather than a default font treatment.
+
+The mark is an orbiting, node-centred **signal path**: a solid lime loop wraps an offset central point and breaks into a short directional trace. The wordmark appears as spaced uppercase `SAURABH / MANDAL` alongside the mark, never as a default-font lockup.
 
 ### Signature Brand Color
-**Signal Cyan — #35E6D4**
+
+**Signal Lime — `#B8FF3E`**
 
 ## Style Decisions
 
-- **Signal Cyan #35E6D4 is a calibration color** for focus dots, primary actions, key terms, data lines, and critical metadata; it is never used as a full-bleed decorative background.
-- **Desktop navigation functions as an instrument rail** with coordinate labels and anchored section jumps, rather than as a conventional centered website menu.
-- **Credentials are system evidence**: AI, privacy, performance, governance, tooling, and relevant recognition are prioritized over résumé-style presentation.
+- Signal Lime is a computation and status accent, never a full chapter background. It may dominate compact command surfaces, active markers, key numerals, and terminal highlights only.
+- Every major chapter carries a persistent signal-path device: a rail, coordinate label, route trace, grid field, status token, or plotted system diagram.
+- Project cards are inspectable instruments. Their hierarchy comes from telemetry, state markers, capability tokens, coordinate labels, and plotted geometry rather than generic decorative cards.
+
+## Content foundation
+
+The site will feature Saurabh Mandal as a systems and AI engineer. The primary project case files are ALICE (macOS AI companion), SHADE (Rust headless browser engine), ASTRO (local-first personal AI platform), and SIA (private on-device AI companion). The evidence chapter will reference JavaScript Tutorial I (IBM SkillsBuild / w3schools) and Data Analytics (Magenoto Software) as supplied by the user, alongside CV-confirmed frontend experience and broader skills.
